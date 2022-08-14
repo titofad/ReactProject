@@ -1,0 +1,42 @@
+.imageholder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.img{
+    height: 160px ;
+    width: 160px;
+}
+#head{
+    margin-top:38px ;
+    margin-bottom: 40px ;
+}
+.section2{
+    padding: 20px;
+}
+.imgdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items:center ;
+   
+}
+.bg{
+    background-color: #8AC430 ;
+    margin: 40;
+    width: 500px;
+    height: 600px;
+    justify-content: center;
+    border-radius: 12px;
+    display: flex;
+}
+
+.sec{
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    margin-left: 300px;
+    
+}
