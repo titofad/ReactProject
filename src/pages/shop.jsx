@@ -1,7 +1,22 @@
-import React from "react"
+import React, {useState, useEffect} from "react"
+import Header from "../components/common/Header"
+import Product from "../components/shop/Product"
 
 function Shop(){
-    return<div>Shop</div>;
+
+    let {product,setProduct} = useState([]);
+    
+    return(
+        <section>
+            
+            <Header/>
+    
+        <div>
+            <Product/>
+        </div>
+        </section>
+    );
+    
 }
 
 export default Shop;
