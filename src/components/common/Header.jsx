@@ -6,13 +6,13 @@ function Errand (){
         <nav className={styles.header}>
             <div className={styles.logo}> <img src={logo}/></div>
             <ul className={styles.list}>
-               <b><li className={styles.hs}><span className={styles.span}>Home</span></li> </b>
-                <b> <li className={styles.hs}>About us</li> </b>
-                <b> <li className={styles.hs}>services</li> </b>
-                <b> <li className={styles.hs}>contact</li> </b>
-                <b> <li className={styles.hs}>Help</li> </b>
+               <b><li className={styles.hs}><span className={styles.span}> <a href="/Home">Home</a></span></li> </b>
+                <b> <li className={styles.hs}> <a href="/About us">About us</a></li> </b>
+                <b> <li className={styles.hs}> <a href="/services">services</a></li> </b>
+                <b> <li className={styles.hs}> <a href="/contact"> contact</a></li> </b>
+                <b> <li className={styles.hs}> <a href="/Help"> Help</a></li> </b>
             </ul>
-            <button className={styles.button}> <b> contact us</b></button>
+            <button className={styles.button}> <b> <a href="/contact us">contact us</a></b></button>
         </nav>
     )
 }

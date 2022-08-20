@@ -1,0 +1,70 @@
+.sect3{
+    background-color:#ECE9E3;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    height: 200vh;
+}
+.head3{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 15px;
+    padding-left:30px ;
+    padding-right:30px ;
+    padding-top: 30px;
+}
+.sectionCard{
+    width: 250px;
+    background-color: white;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items:center ;
+    border-radius: 10px;
+
+}
+.image-holder{
+    display: flex;
+     flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section3-div{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:30px ;
+    padding-right:30px ;
+}
+.btn3{
+    margin-top: 15px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    line-height: 25px;
+    margin-right: 40px;
+    width: 120px;
+    height: 37px;
+    margin-left: 30px;
+    border-radius: 10px;
+
+}
+.section-card img{
+    height: 10px;
+}
+.hd{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.div-image{
+    display: flex;
+}
+.h6{
+
+    margin-top: 20px;
+}
