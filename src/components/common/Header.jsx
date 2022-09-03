@@ -11,6 +11,7 @@ function Errand (){
                 <b> <li className={styles.hs}> <a href="/services">services</a></li> </b>
                 <b> <li className={styles.hs}> <a href="/contact"> contact</a></li> </b>
                 <b> <li className={styles.hs}> <a href="/Help"> Help</a></li> </b>
+                <b> <li className={styles.hs}> <a href="/CartGit push origin main"> Cart</a></li> </b>
             </ul>
             <button className={styles.button}> <b> <a href="/Shop">Shop Now</a></b></button>
         </nav>
