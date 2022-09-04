@@ -5,7 +5,7 @@ import Index from './pages'
 import HeroImage from './assets/react.svg'
 import Errand from './components/common/Header'
 import Shop from "./pages/shop"
-import Login from "./pages/login"
+import Login from "./pages/Login"
 import Dashboard from "./pages/dashboard"
 
 function App() {
