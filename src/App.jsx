@@ -6,6 +6,7 @@ import HeroImage from './assets/react.svg'
 import Errand from './components/common/Header'
 import Shop from "./pages/shop"
 import Login from "./pages/Login"
+import Cart from "./pages/Cart"
 import Dashboard from "./pages/dashboard"
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path="/" element={<Index/>} />
       <Route path="/Shop" element={<Shop/>} />
       <Route path="/Login"element={<Login/>} />
+      <Route path="/Cart"element={<Cart/>} />
       <Route path="/dashboard"element={<Dashboard/>} />
 
     </Routes>
