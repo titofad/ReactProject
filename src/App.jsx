@@ -4,8 +4,8 @@ import reactLogo from './assets/react.svg'
 import Index from './pages'
 import HeroImage from './assets/react.svg'
 import Errand from './components/common/Header'
-import Shop from "./pages/Shop"
-import Login from "./pages/Login"
+import Shop from "./pages/shop"
+import Login from "./pages/login"
 import Dashboard from "./pages/dashboard"
 
 function App() {
