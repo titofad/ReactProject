@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import SammyShopping from "../assets/SammyShopping.gif";
+import SammyShopping from "../assets/sammyShopping.gif";
 import Loader from "../assets/Loader.gif";
 import axios from "axios"
 import{useNavigate} from "react-router-dom"
