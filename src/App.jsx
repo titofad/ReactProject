@@ -6,6 +6,7 @@ import HeroImage from './assets/react.svg'
 import Errand from './components/common/Header'
 import Shop from "./pages/Shop"
 import Login from "./pages/Login"
+import Dashboard from "./pages/dashboard"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Route path="/" element={<Index/>} />
       <Route path="/Shop" element={<Shop/>} />
       <Route path="/Login"element={<Login/>} />
+      <Route path="/dashboard"element={<Dashboard/>} />
 
     </Routes>
     </BrowserRouter>
