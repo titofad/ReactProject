@@ -1,6 +1,6 @@
 import styles from "../common/Header.module.css";
 import HeroImg from "../../assets/HeroImage.png";
-import icon from "../../assets/icon.svg";
+import icon from "../../assets/Icon.svg";
 
 function Hero (){
     return (
